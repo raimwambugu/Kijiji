@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kijiji</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
      <div class="header">
@@ -142,13 +143,47 @@
         </form>
          <button type="Submit">Submit</button>
     </div>
-    <div class="footer">
+    <!-- FAQ Accordion -->
+    <div class="faq">
+        <h2>FAQs</h2>
+        <div class="faq-item">
+            <h4 class="faq-question">What is Kijiji?</h4>
+            <div class="faq-answer">Kijiji helps you discover hidden gems and unique travel spots shared by locals.</div>
+        </div>
+        <div class="faq-item">
+            <h4 class="faq-question">How do I contribute a gem?</h4>
+            <div class="faq-answer">You can upload photos, locations, and descriptions once registered.</div>
+        </div>
+        <div class="faq-item">
+            <h4 class="faq-question">Is Kijiji free?</h4>
+            <div class="faq-answer">Yes, all core features of Kijiji are free for users.</div>
+        </div>
+    </div>
+
+    <!-- Audience Toggle -->
+    <div class="audience-toggle">
+        <label class="switch">
+            <input type="checkbox" id="audienceSwitch">
+            <span class="slider"></span>
+        </label>
+        <span id="audienceLabel">For Travelers</span>
+    </div>
+    <div id="travelerContent" class="audience-content">Discover gems around you curated by locals.</div>
+    <div id="localContent" class="audience-content" style="display:none">Share your favorite hidden gems and reach more people.</div>
+
+    <!-- Script inclusion -->
+    <script src="script.js"></script>
+     <div class="footer">
         <a href="mailto:kijijihiddengems@gmail.com">Email us</a><br>
         <a href="https://www.instagram.com/kijiji.hidden.gems" target="_blank">Follow us on our instagram page</a>
         <div class="text">
             <p>Connect with us on our socials</p>
             <p>© 2025 Kijiji. All rights reserved.</p>
         </div>
+    </div>
+     <!-- Visitor Counter -->
+    <div class="visitor-counter">
+        <p id="visit-count">Visits: 0</p>
     </div>
 </body>
 </html>
