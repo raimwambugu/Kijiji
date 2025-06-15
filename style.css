@@ -1,154 +1,57 @@
-/* Reset and base styling */
-* {
+.homepage {
+    background-image: url(https://framerusercontent.com/images/wEWO5ZwGZqaXwvyENa5pgO2Dk.png);
+    background-size: cover;
+    background-position: center;
+    height: 1024px;
+    width: 1440px;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    display: flex;  
 }
-
-body {
-    font-family: 'fredoka one', sans-serif;
-    line-height: 1.6;
-    background-color: #f8f9fa;
-    color: #333;
-    font-weight: bold;
-}
-
-.header, .footer, .navbar, .hero, .features, .team, .about, .chatbot, .connect, .faq, .audience-toggle, .visitor-counter {
-    padding: 20px;
-    margin: 10px 0;
-}
-
-h1, h2, h3, h4, h5 {
-    margin-bottom: 10px;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #00897b;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #00695c;
-}
-
-.hero {
+.homepage-text {
+    position: absolute;
     text-align: center;
-    background: linear-gradient(to right, #4facfe, #00f2fe);
-    color: white;
-    padding: 60px 20px;
+    color: black;
 }
-
-.hero h1 {
-    font-size: 48px;
+.header-text {
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    font-size: 96px;
     margin-bottom: 10px;
 }
-
-.hero p {
-    font-size: 18px;
-    margin-bottom: 20px;
+.sub-text {
+    font-family: 'inter', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
 }
-
-.features {
+.about-us {
     display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    gap: 20px;
 }
-
-.features > div {
-    min-width: 300px;
-    scroll-snap-align: start;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-}
-
-.team {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    text-align: center;
-}
-
-.team .text {
-    background: white;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.faq .faq-item {
-    margin-bottom: 10px;
-    cursor: pointer;
-}
-
-.faq-answer {
-    display: none;
-    padding: 10px;
-    background-color: #e0f7fa;
-    border-left: 4px solid #00897b;
-}
-
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-}
-
-.switch input { display: none; }
-
-.slider {
-    position: absolute;
-    top: 0; left: 0;
-    right: 0; bottom: 0;
-    background-color: #ccc;
-    transition: .4s;
-    border-radius: 34px;
-}
-
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    transition: .4s;
-    border-radius: 50%;
-}
-
-input:checked + .slider {
-    background-color: #2196F3;
-}
-
-input:checked + .slider:before {
-    transform: translateX(26px);
-}
-
-.visitor-counter {
-    text-align: center;
-    margin-top: 20px;
+.header2-text {
+    font-family:'fredoka one', sans-serif;
+    font-size:64px;
     font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
-
-/* Responsive Layout */
-@media (max-width: 600px) {
-    .features, .team {
-        flex-direction: column;
-    }
-
-    .hero h1 {
-        font-size: 36px;
-    }
-
-    button {
-        width: 100%;
-    }
+.sub2-text {
+    font-family: 'fredoka', sans-serif;
+    font-size: 64px;
+    font-weight: ;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
+.body2-text {
+    font-family: 'fredoka', sans-serif;
+    font-size: 22px;
+    font-weight: ;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.logo {
+    <img src="/Kijiji/images/kijiji logo.png" alt="Company Logo" class="logo">
+
+}
+    
