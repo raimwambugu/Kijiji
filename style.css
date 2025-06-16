@@ -27,6 +27,14 @@
 }
 .about-us {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+}
+.left-side {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
 }
 .header2-text {
     font-family:'fredoka one', sans-serif;
@@ -49,9 +57,22 @@
     font-weight: ;
     margin-bottom: 0;
     padding-bottom: 0;
+    text-align: left;
+    width: 600px;
+
 }
 .logo {
-    <img src="/Kijiji/images/kijiji logo.png" alt="Company Logo" class="logo">
-
+    width: 200px; 
+    height: auto; 
+    margin-top: 20px;
+    
+}
+.image2  {
+    width: 40%;
+    height: 600px;
+    background-image: url('https://framer.com/projects/Untitled--d0e1sMnyZSG4qOWSqFaE-1nLKH?node=xnXal3siD');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
     
