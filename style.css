@@ -30,6 +30,7 @@
     justify-content: space-between;
     align-items: flex-start;
     padding: 40px;
+    background-color: #FAF0E6 ;
 }
 .left-side {
     display: flex;
@@ -65,14 +66,62 @@
     width: 200px; 
     height: auto; 
     margin-top: 20px;
-    
+
 }
 .image2  {
     width: 40%;
-    height: 600px;
-    background-image: url('https://framer.com/projects/Untitled--d0e1sMnyZSG4qOWSqFaE-1nLKH?node=xnXal3siD');
+    height: 900px;
+    margin-top: 400px;
+    background-image: url('images/about us.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-    
+.features {
+  padding: 40px;
+}
+
+.features-text h2 {
+  font-size: 64px;
+  font-family: 'Fredoka', sans-serif;
+  margin-bottom: 20px;
+}
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 20px;
+}
+
+.hidden {
+  flex: 0 0 300px; 
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 16px;
+  scroll-snap-align: start;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional image placeholder */
+.feature-card .image {
+  width: 100%;
+  height: 150px;
+  background-color: #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Text in cards */
+.feature-card h5 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-family: 'Fredoka', sans-serif;
+}
+
+.feature-card p {
+  font-size: 16px;
+  font-family: 'Fredoka', sans-serif;
+}
