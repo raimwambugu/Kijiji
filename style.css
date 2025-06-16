@@ -165,4 +165,41 @@
 .interactive-image {
     background-image: url('images/maps.jpg');
 }
-   
+
+.Testimonials {
+    background-image: url('images/Testimonials.jpg');
+    background-size: cover;
+    background-position: center;
+    min-width: 1440px;
+    min-height: 578px;
+}
+.text-split {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+.testimonials-header {
+    font-family: 'fredoka one', sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.left-text, .right-text {
+    width: 45%;
+}
+.testimonials-names {
+    font-family: 'roboto condensed', sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.testimonials-body {
+    font-family: 'roboto condensed', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
