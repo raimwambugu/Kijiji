@@ -79,9 +79,10 @@
 }
 .features {
   padding: 40px;
+  background-color: #FAF0E6 100%;
 }
 
-.features-text h2 {
+.features-text {
   font-size: 64px;
   font-family: 'Fredoka', sans-serif;
   margin-bottom: 20px;
@@ -90,38 +91,78 @@
 .slider {
   display: flex;
   overflow-x: auto;
-  gap: 20px;
+  overflow-y: auto;
+  gap: 100px;
   scroll-snap-type: x mandatory;
   padding-bottom: 20px;
+ 
 }
 
 .hidden {
   flex: 0 0 300px; 
-  background: #f8f8f8;
+  background: #DEB887 ;
   padding: 20px;
   border-radius: 16px;
   scroll-snap-align: start;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 366px;
+  height: 967px;
 }
 
-/* Optional image placeholder */
-.feature-card .image {
-  width: 100%;
-  height: 150px;
-  background-color: #ccc;
-  border-radius: 8px;
+.rate { 
+    flex: 0 0 300px; 
+  background: #DEB887 ;
+  padding: 20px;
+  border-radius: 16px;
+  scroll-snap-align: start;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 366px;
+  height: 967px;
+  margin-bottom: 20px;;
+}
+
+.interactive {
+   flex: 0 0 300px; 
+  background: #DEB887 ;
+  padding: 20px;
+  border-radius: 16px;
+  scroll-snap-align: start;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 366px;
+  height: 967px;
+} 
+.hidden-header, .rate-header, .interactive-header {
+  font-size: 64px;
+  font-family: 'roboto flex', sans-serif;
+  margin-bottom: 0px;
+}
+.hidden-body, .rate-body, .interactive-body {
+  font-size: 36px;
+  font-family: 'roboto', sans-serif;
+  margin-bottom: 0px;
+}
+
+.hidden-image, .rate-image, .interactive-image {
+     width: 100%;
+  width: 269px;
+  height: 427px;
+    background-size: cover;
+    background-position: center;
+  border-radius: 0px;
   margin-bottom: 10px;
+  display: block;
+  margin: 0 auto 10px auto;
 }
+   .hidden-image{
+    background-image: url('images/hidden gem.jpg');
+   } 
+ 
 
-/* Text in cards */
-.feature-card h5 {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 8px;
-  font-family: 'Fredoka', sans-serif;
+.rate-image {
+    background-image: url('images/rating.jpg');
 }
-
-.feature-card p {
-  font-size: 16px;
-  font-family: 'Fredoka', sans-serif;
+   
+.interactive-image {
+    background-image: url('images/maps.jpg');
 }
+   
